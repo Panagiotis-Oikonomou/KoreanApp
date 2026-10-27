@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.myfirstapp.grammar.HomeScreen
+import com.example.myfirstapp.grammar.GrammarScreen
 import com.example.myfirstapp.grammar.auxiliary.AllAuxiliary
 import com.example.myfirstapp.grammar.auxiliary.Become
 import com.example.myfirstapp.grammar.auxiliary.Juda
@@ -158,7 +158,7 @@ import com.example.myfirstapp.grammar.verbtonoun.DiffKiNeunkeot
 import com.example.myfirstapp.grammar.verbtonoun.Ki
 import com.example.myfirstapp.grammar.verbtonoun.KiFixed
 import com.example.myfirstapp.grammar.verbtonoun.NeunKeot
-
+import com.example.myfirstapp.words.WordsScreen
 
 @Composable
 fun AppNavigation() {
@@ -168,8 +168,17 @@ fun AppNavigation() {
         navController = navController,
         startDestination = "home"
     ) {
+
         composable("home") {
             HomeScreen(navController)
+        }
+
+        composable("grammar") {
+            GrammarScreen(navController)
+        }
+
+        composable("words") {
+            WordsScreen(navController)
         }
 
         composable("particles") {

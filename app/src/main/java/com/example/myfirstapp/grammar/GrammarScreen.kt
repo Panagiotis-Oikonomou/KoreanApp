@@ -21,7 +21,7 @@ import androidx.navigation.NavController
 import com.example.myfirstapp.ui.theme.MyBackground
 
 @Composable
-fun HomeScreen(navController: NavController) {
+fun GrammarScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -33,7 +33,7 @@ fun HomeScreen(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Home", style = MaterialTheme.typography.headlineMedium)
+        Text(text = "Grammar", style = MaterialTheme.typography.headlineMedium)
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("particles")}
