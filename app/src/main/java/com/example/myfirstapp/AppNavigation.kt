@@ -158,6 +158,7 @@ import com.example.myfirstapp.grammar.verbtonoun.DiffKiNeunkeot
 import com.example.myfirstapp.grammar.verbtonoun.Ki
 import com.example.myfirstapp.grammar.verbtonoun.KiFixed
 import com.example.myfirstapp.grammar.verbtonoun.NeunKeot
+import com.example.myfirstapp.words.Animals
 import com.example.myfirstapp.words.WordsScreen
 
 @Composable
@@ -179,6 +180,10 @@ fun AppNavigation() {
 
         composable("words") {
             WordsScreen(navController)
+        }
+
+        composable("animals") {
+            Animals()
         }
 
         composable("particles") {

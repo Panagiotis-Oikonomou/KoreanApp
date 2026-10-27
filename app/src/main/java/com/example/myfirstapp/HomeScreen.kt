@@ -16,6 +16,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -34,15 +36,15 @@ fun HomeScreen(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Home", style = MaterialTheme.typography.headlineMedium)
+        Text(text = "Home", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("grammar")}
-        ) { Text(text = "Grammar", fontSize = 36.sp)}
+        ) { Text(text = "Grammar", fontSize = 30.sp)}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words")}
-        ) { Text(text = "Words", fontSize = 36.sp)}
+        ) { Text(text = "Words", fontSize = 30.sp)}
 
         Spacer(modifier = Modifier.height(16.dp))
     }
