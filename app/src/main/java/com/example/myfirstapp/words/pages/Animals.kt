@@ -1,4 +1,4 @@
-package com.example.myfirstapp.words
+package com.example.myfirstapp.words.pages
 
 import androidx.compose.runtime.Composable
 import com.example.myfirstapp.layouts.WordsLayout
