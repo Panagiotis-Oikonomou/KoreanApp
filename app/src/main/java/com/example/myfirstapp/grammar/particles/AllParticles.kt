@@ -16,6 +16,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.myfirstapp.ui.theme.MyBackground
@@ -33,7 +35,13 @@ fun AllParticles(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Particles", style = MaterialTheme.typography.headlineMedium)
+        Text(
+            text = "Particles",
+            modifier = Modifier.fillMaxWidth(),
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("bakke")}
@@ -90,5 +98,7 @@ fun AllParticles(navController: NavController) {
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("aroundabout")}
         ) { Text("쯤/정도 particles")}
+
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }

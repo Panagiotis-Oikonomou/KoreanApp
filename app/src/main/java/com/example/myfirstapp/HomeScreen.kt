@@ -36,7 +36,13 @@ fun HomeScreen(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Home", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        Text(
+            text = "Home",
+            modifier = Modifier.fillMaxWidth(),
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("grammar")}

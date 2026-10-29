@@ -36,7 +36,13 @@ fun WordsScreen(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Words", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        Text(
+            text = "Words",
+            modifier = Modifier.fillMaxWidth(),
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("animals")}
