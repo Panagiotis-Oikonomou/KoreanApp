@@ -19,6 +19,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.myfirstapp.ui.theme.MyBackground
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 
 @Composable
 fun AllMakeSentence(navController: NavController) {
