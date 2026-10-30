@@ -33,7 +33,13 @@ fun AllVerbConstruction(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Verb Construction", style = MaterialTheme.typography.headlineMedium)
+        Text(
+            text = "Verb Construction",
+            modifier = Modifier.fillMaxWidth(),
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("continuation")}

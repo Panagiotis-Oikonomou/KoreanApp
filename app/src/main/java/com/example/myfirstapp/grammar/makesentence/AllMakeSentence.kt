@@ -33,7 +33,13 @@ fun AllMakeSentence(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(24.dp))
 
-        Text(text = "Grammatical Expressions", style = MaterialTheme.typography.headlineMedium)
+        Text(
+            text = "Grammatical Expressions",
+            modifier = Modifier.fillMaxWidth(),
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("adverbial")}
