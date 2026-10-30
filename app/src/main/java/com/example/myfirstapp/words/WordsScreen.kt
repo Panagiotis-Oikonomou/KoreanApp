@@ -48,6 +48,18 @@ fun WordsScreen(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("animals")}
         ) { Text(text = "Animals", fontSize = 20.sp)}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("countries")}
+        ) { Text(text = "Countries", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("bodyparts")}
+        ) { Text(text = "Body Parts", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("organs")}
+        ) { Text(text = "Organs", fontSize = 20.sp)}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
