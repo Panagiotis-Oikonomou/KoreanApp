@@ -60,6 +60,50 @@ fun WordsScreen(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("organs")}
         ) { Text(text = "Organs", fontSize = 20.sp)}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("kitchenobj")}
+        ) { Text(text = "Kitchen Objects", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("otherobj")}
+        ) { Text(text = "Other Objects", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("tools")}
+        ) { Text(text = "Tools", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("family")}
+        ) { Text(text = "Family", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("jobs")}
+        ) { Text(text = "Jobs", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("weather")}
+        ) { Text(text = "Weather", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("nature")}
+        ) { Text(text = "Nature", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("cloths")}
+        ) { Text(text = "Cloths", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("fruits")}
+        ) { Text(text = "Fruits", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("vegetables")}
+        ) { Text(text = "Vegetables", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("furniture")}
+        ) { Text(text = "Furniture", fontSize = 20.sp)}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
