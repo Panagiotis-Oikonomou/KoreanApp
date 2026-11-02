@@ -1,0 +1,272 @@
+[Animals]
+Ant: 개미
+Crab: 게
+Crane: 두루미
+Crow: 까마귀
+Deer: 사슴
+Eagle: 독수리
+Eel: 장어
+Elephant: 코끼리
+Frog: 개구리
+Gator: 악어
+Giraffe: 기린
+Goose: 거의
+Hippo: 하마
+Jaguar: 표범
+Lobster: 대게
+Magpie: 까치
+Raccoon: 너구리
+Rhinoceros: 코뿔소
+Seal: 물개
+Ostrich: 타조
+Owl: 부엉이
+Octopus: 문어
+Zebra: 얼룩말
+[End]
+
+
+[Countries]
+Country: 나라
+Australia: 호주
+Germany: 독일
+Thailand: 태국
+[End]
+
+
+[Body Parts]
+Abs: 복근
+Ankle: 발목
+Arm: 팔
+Back: 등
+Beard: 수염
+Cheek: 볼
+Chin: 턱
+Elbow: 팔꿈치
+Thigh: 허복지
+Waist: 허리
+[End]
+
+
+[Organs]
+Blood: 혈액 / 피
+Brain: 뇌
+Heart: 심장
+Intestines: 장
+Kidney: 신장
+Liver: 간
+Lung: 폐
+Muscle: 근육
+Spleen: 비장
+Organ: 장기
+Pancreas: 췌장
+[End]
+
+
+[Kitchen Objects]
+Bowl: 그릇
+Knife: 칼
+Ladle: 국자
+Plate: 접시
+Trashcan: 쓰레기동
+[End]
+
+
+[Other Objects]
+Iron: 다리디
+Key: 열쇠
+Ladder: 사다리
+Mop: 대걸래
+Toothbrush: 칫솔
+Towel: 수건
+Charger: 충전기
+Parachute: 낙하산
+[End]
+
+
+[Tools]
+Axe: 도끼
+Hammer: 망치
+Nail: 못
+Shovel: 삽
+Wrench: 렌치
+[End]
+
+[Family]
+Aunt: 나라
+Cousin: 호주
+Father in law: 시아버지
+Granddaughter: 독일
+Grandparent: 태국
+Grandson: 손자
+Mother in law: 시아머니
+Parent: 부모님
+Parents in law: 시부모님
+Uncle: 삼촌
+[End]
+
+
+[Jobs]
+Athlete: 운동선수
+Carpenter: 목수
+Cashier: 출납계원
+Dentist: 치과의사
+Detective: 수사관
+Farmer: 농부
+Firefighter: 소방관
+Janitor: 관리인
+Journalist: 기자
+Judge: 판사
+Lawyer: 변호사
+Mechanic: 정비공
+Nurse: 간호사
+Pharmacist: 약사
+Pilot: 비행사
+Policeman: 경찰관
+Professor: 교수
+Prosecutor: 검사
+Secretary: 비서
+Veterinarian: 수의사
+Waiter: 정업원
+[End]
+
+
+[Weather]
+Climate: 기후
+Cloud: 구름
+Drought: 가뭄
+Earthquake: 지진
+Flood: 홍수
+Fog: 안개
+Humidity: 습도
+Lightning: 번개
+Rainbow: 무지개
+Star: 별
+Sun: 태향 / 해
+Temperature: 온도
+Wind: 바람
+[End]
+
+
+[Nature]
+Air: 공기
+Branch: 가지
+Cliff: 절벽
+Desert: 사막
+Forest: 숲
+Galaxy: 은하수
+Glacier: 빙하
+Ground: 땅
+Hill: 언덕
+Island: 섬
+Lake: 호수
+Leaf: 잎
+Valley: 계곡
+[End]
+
+
+[Cloths]
+Glove: 장갑
+Scarf: 목도리
+Shorts: 반바지
+Sweater: 스웨터
+Necklace: 목걸리
+Ring: 반지
+[End]
+
+
+[Fruits]
+Apricot: 살구
+Fruit: 과일
+Grapes: 포도
+Nectarine: 복숭아
+Pear: 배
+Tangerine: 귤
+Watermelon: 수박
+[End]
+
+
+[Vegetables]
+Cabbage: 양배추
+Carrot: 당근
+Corn: 옥수수
+Eggplant: 가지
+Garlic: 마늘
+Green onion: 파
+Lettuce: 양상추
+Mushroom: 버섯
+Onion: 양파
+Pumpkin: 호박
+Vegetable: 야채
+[End]
+
+
+[Furniture]
+Bathtub: 욕조
+Bookshelf: 책장
+Closet: 옷장
+Desk: 책장
+Drawer: 서랍
+Floor: 바닥
+Refrigerator: 냉장고
+Table: 탁자
+Toilet: 변기
+Washing machine: 세탁기
+[End]
+
+
+[Places]
+Airport: 공항
+Cinema: 영화관
+Convenience store: 편의점
+Facility: 시설
+Factory: 공장
+Garden: 정원
+Gym: 헬스장
+Fire station: 소방서
+Gas station: 주유소
+Hair salon: 미용실
+Museum: 박물관
+Parking lot: 주차장
+Police station: 경찰서
+Pharmacy: 약국
+Temple: 절
+[End]
+
+
+[School]
+Calculator: 계산기
+Globe: 지구본
+Glue: 접착제
+Homework: 숙제
+Ruler: 통치자
+Scissor: 가위
+Textbook: 교과서
+[End]
+
+
+[School Subjects]
+Art: 미술
+Biology: 생물학
+Chemistry: 화학
+Economics: 경제학
+Geography: 지리학
+History: 역사
+Physics: 물리학
+Politics: 정치
+Psychology: 심리학
+Science: 과학
+School subject: 과목
+[End]
+
+[Directions]
+Back: 뒤
+East: 동쪽
+Front: 앞
+Left: 왼쪽
+Middle: 가 운데
+Next to: 옆
+North: 북쪽
+Right: 오른쪽
+South: 남쪽
+West: 서쪽
+[End]

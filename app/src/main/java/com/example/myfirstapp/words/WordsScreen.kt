@@ -45,64 +45,80 @@ fun WordsScreen(navController: NavController) {
         )
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("animals")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Animals")}
         ) { Text(text = "Animals", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("countries")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Countries")}
         ) { Text(text = "Countries", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("bodyparts")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Body Parts")}
         ) { Text(text = "Body Parts", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("organs")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Organs")}
         ) { Text(text = "Organs", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("kitchenobj")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Kitchen Objects")}
         ) { Text(text = "Kitchen Objects", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("otherobj")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Other Objects")}
         ) { Text(text = "Other Objects", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("tools")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Tools")}
         ) { Text(text = "Tools", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("family")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Family")}
         ) { Text(text = "Family", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("jobs")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Jobs")}
         ) { Text(text = "Jobs", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("weather")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Weather")}
         ) { Text(text = "Weather", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("nature")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Nature")}
         ) { Text(text = "Nature", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("cloths")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Cloths")}
         ) { Text(text = "Cloths", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("fruits")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Fruits")}
         ) { Text(text = "Fruits", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("vegetables")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Vegetables")}
         ) { Text(text = "Vegetables", fontSize = 20.sp)}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("furniture")}
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Furniture")}
         ) { Text(text = "Furniture", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Places")}
+        ) { Text(text = "Places", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/School")}
+        ) { Text(text = "School", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/School Subjects")}
+        ) { Text(text = "School Subjects", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Directions")}
+        ) { Text(text = "Directions", fontSize = 20.sp)}
 
         Spacer(modifier = Modifier.height(16.dp))
     }
