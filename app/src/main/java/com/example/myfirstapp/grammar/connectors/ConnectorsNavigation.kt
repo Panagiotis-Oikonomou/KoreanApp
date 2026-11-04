@@ -38,4 +38,8 @@ fun NavGraphBuilder.connectorsGraph(
     composable("neurago") {
         Neurago()
     }
+
+    composable("myeon") {
+        Myeon()
+    }
 }
