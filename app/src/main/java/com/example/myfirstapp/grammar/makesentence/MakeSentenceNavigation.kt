@@ -15,6 +15,10 @@ fun NavGraphBuilder.makesentenceGraph(
         AdverbialClause()
     }
 
+    composable("MyeonVsTtae") {
+        MyeonVsTtae()
+    }
+
     composable("shouldhave") {
         ShouldHave()
     }

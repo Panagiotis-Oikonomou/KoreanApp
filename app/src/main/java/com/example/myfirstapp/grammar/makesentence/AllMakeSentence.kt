@@ -48,6 +48,10 @@ fun AllMakeSentence(navController: NavController) {
         ) { Text("-ㄹ/을 때 — Adverbial Clause")}
 
         Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("MyeonVsTtae")}
+        ) { Text("-(으)면 vs -ㄹ/을 때")}
+
+        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("shouldhave")}
         ) { Text("-아/어 야겠다/야되겠다, -아/어 + 야 되다/하다 — I Should Verb and I Have to Verb")}
 
