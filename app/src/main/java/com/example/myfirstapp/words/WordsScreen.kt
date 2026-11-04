@@ -120,6 +120,26 @@ fun WordsScreen(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Directions")}
         ) { Text(text = "Directions", fontSize = 20.sp)}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Adjectives Size")}
+        ) { Text(text = "Adjectives Size", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Adjectives Emotions")}
+        ) { Text(text = "Adjectives Emotions", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Adjectives Feeling")}
+        ) { Text(text = "Adjectives Feeling", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Adjectives")}
+        ) { Text(text = "Adjectives", fontSize = 20.sp)}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Adjectives -하다")}
+        ) { Text(text = "Adjectives -하다", fontSize = 20.sp)}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }

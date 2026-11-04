@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
@@ -25,8 +24,7 @@ import com.example.myfirstapp.ui.theme.MyBackground
 
 @Composable
 fun WordsLayout(
-    title: String,
-    words: List<Pair<String, String>> = emptyList()
+    title: String
 ) {
     val context = LocalContext.current
     val word = remember(title) {
@@ -67,30 +65,22 @@ fun getCategoryWords(
     context: Context,
     category: String
 ): List<Pair<String, String>> {
-
     val result = mutableListOf<Pair<String, String>>()
     var readingCategory = false
 
     context.assets.open("vocabulary.txt").bufferedReader().use { reader ->
 
         reader.forEachLine { line ->
-
             when {
-                line.trim() == "[$category]" -> {
-                    readingCategory = true
-                }
+                line.trim() == "[$category]" -> { readingCategory = true }
 
-                line.trim() == "[End]" -> {
-                    readingCategory = false
-                }
+                line.trim() == "[End]" -> { readingCategory = false }
 
                 readingCategory -> {
                     val parts = line.split(":", limit = 2)
 
                     if (parts.size == 2) {
-                        result.add(
-                            parts[0].trim() to parts[1].trim()
-                        )
+                        result.add(parts[0].trim() to parts[1].trim())
                     }
                 }
             }

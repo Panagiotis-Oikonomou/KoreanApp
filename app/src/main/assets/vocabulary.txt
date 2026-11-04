@@ -270,3 +270,83 @@ Right: 오른쪽
 South: 남쪽
 West: 서쪽
 [End]
+
+
+[Adjectives Size]
+To be short: 짧다
+To be deep: 깊다
+To be thick: 겁다
+To be shallow:
+To be thin: 얇다
+To be light: 가볍다
+To be skinny: 날씬하다
+[End]
+
+
+[Adjectives Emotions]
+To be annoyed: 짜증나다
+To be bored: 심심하다
+To be embarrassed: 찬피하다
+To be anxious: 초조하다
+[End]
+
+
+[Adjectives Feeling]
+To be confident: 자신감이 있다
+To be confused: 혼란스럽다
+To be clad: 기쁘다
+To be exhausted: 지치다
+To be unsatisfied: 불만스럽다
+To be energetic: 활기치다
+To be lazy: 게으르다
+To be nervous: 긴장하다
+To be uncomfortable: 불편하다
+To be upset: 속상하다
+To be hopeful: 기대하다
+To be discouraged: 낙담하다
+[End]
+
+[Adjectives]
+To be few, less: 적다
+To be sour: 시다
+To be bitter: 쓰다
+To be hot(weather): 덥다
+To be cold(weather): 춥다
+To be lonely: 의롭다
+To be soft: 부드럽다
+To be hot: 뜨겁다
+To be cold: 차갑다
+To be dirty: 더럽다
+To be salty: 짜다
+To be strong(physically): 힘이 세다
+To be noisy: 끄럽다
+To be close: 가깝다
+To be bright, innocent: 하맑다
+To smell really good: 향기롭다
+To be generous: 속이 넓다, 마음이 넓다
+To be petty, small-minded: 속이 좁다
+To be deceived, fooled: 속다
+To rise, float: 뜨다
+To be attached: 붙다
+To be cooked: 익다
+To be cooled down: 식다
+To be wet: 젖다
+To be transferred, infected: 옮다
+To be blacked: 막히다
+[End]
+
+
+[Adjectives -하다]
+To be weak: 약하다
+To be impatient: 조급하다
+To be unkind: 불친절하다
+To be clean: 깨끗하다
+To be calm: 침착하다
+To be lively: 활발하다
+To be wise, sensible: 현명하다
+To be dark: 깜깜하다
+To be brave: 씩씩하다
+To be shabby, humble, insignificant: 초리하다
+To lack, not enough: 부족하다
+To be vague: 희미하다
+[End]
