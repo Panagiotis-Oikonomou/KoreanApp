@@ -103,6 +103,22 @@ fun Euse() {
             "선생님께 선물을 드려요." to "I gave a gift to my teacher."
         ))
 
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Text(text = "아프다", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+        Text(text = "펀찮으시다: when honoring the subject who is sick(or when referring to overall sickness)", fontSize = 16.sp)
+        Text(text = "아프시다: when referring to pain in a specific body part", fontSize = 16.sp)
+
+        Spacer(modifier = Modifier.height(20.dp))
+        Text(text = "Examples", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        ExamplesLayout(listOf(
+            "할머니께서 편찮으세요." to "Grandmother is sick.",
+            "할머니께서 머리가 아프세요." to "Grandmother has an headache."
+        ))
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
