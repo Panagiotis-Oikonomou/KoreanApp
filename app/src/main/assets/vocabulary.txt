@@ -333,6 +333,9 @@ To be cooled down: 식다
 To be wet: 젖다
 To be transferred, infected: 옮다
 To be blacked: 막히다
+To feel sorry about a situation: 아쉽다
+To feel sorry for oneself: 서럽다
+To be pissed off: 삐지다
 [End]
 
 
@@ -349,4 +352,107 @@ To be brave: 씩씩하다
 To be shabby, humble, insignificant: 초리하다
 To lack, not enough: 부족하다
 To be vague: 희미하다
+To feel disappointed about a person, usually for something they did to me: 서운하다
+To feel awkward, don't know what to do(slang): 뻘쭘하다
+To feel embarrassed, don't know what to do: 민망하다
+To be embarrassed: 창피하다
+[End]
+
+
+[Verbs]
+To stay: 지내다
+To have: 갖다
+To spit out things: 뱉다
+To spit out words: 내 뱉다
+To remain: 남다
+To hesitate: 망설이다
+To gain weight: 살이 찌다
+To talk when you are not supposed to: 떠들다
+To lose: 지다
+To sweep: 쓸다
+To stay: 묵다
+To hurry: 서두르다
+To bow, bend: 숙이다
+To collapse: 무너지다
+[End]
+
+
+[Verbs -하다]
+To bully, torment: 과롭하다
+To make a mistake: 실수 하다
+Communication goes well: 말이 통하다
+To misunderstand: 오해하다
+To understand: 이해하다
+To face: 마주하다
+To compare: 비교하다
+To comfort: 위로하다
+To cancel something: 취소하다
+To order something: 주문하다
+To deliver: 배달하다
+To transfer: 환승하다
+To confess: 고백하다
+To introduce: 고개하다
+To vomit: 토하다
+To pray: 기도하다
+To major: 전공하다
+[End]
+
+
+[Action Verbs]
+To teach: 가르치다
+To turn on: 켜다
+To turn off: 끄다
+To choose: 고르다
+To raise: 가르다
+To chew: 씹다
+To close: 닫다
+To connect: 잊다
+To throw: 던지다
+To hide: 숨다
+To disappear: 사리지다
+To lick: 핥다
+To win: 이기다
+To click, press: 누르다
+To take: 찍다
+To smoke: 피우다
+To loosen: 풀다
+To tighten: 조이다
+To insert: 끼우다
+[End]
+
+
+[Working Verbs]
+To pour, swell: 붓다
+To wash: 씻다
+To fix: 고치다
+To steam: 찌다
+To stir: 후젖다
+To wipe: 닦다
+To boil: 끓이다
+To fry: 볶다
+To measure: 재다
+To mix: 섞다
+To chop: 썰다
+To stir: 젓다
+[End]
+
+
+[Verbs -가다, -오다, -나다, -보다]
+To take and go: 가져가다
+To bring: 가져오다
+To come up: 올라오다
+To go up: 올라가다
+To come down: 내려오다
+To go down: 내려가다
+To smell: 냄새가 나다
+To follow me: 따라오다
+To follow other person: 따라가다
+To recall: 기억나다
+To come back: 돌아오다
+To go back: 돌아가다
+To look back: 돌아보다
+To enter: 들어가다
+To pass: 지나다
+To take a test: 시험을 보다
+To be born: 태어나다
 [End]

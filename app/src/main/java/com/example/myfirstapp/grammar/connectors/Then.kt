@@ -14,7 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.myfirstapp.layouts.ConversationLayout
 import com.example.myfirstapp.layouts.ExamplesLayout
 import com.example.myfirstapp.layouts.StructureLayout
 import com.example.myfirstapp.ui.theme.MyBackground
