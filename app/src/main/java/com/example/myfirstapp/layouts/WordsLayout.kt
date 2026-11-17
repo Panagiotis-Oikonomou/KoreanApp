@@ -29,7 +29,7 @@ fun WordsLayout(
     val context = LocalContext.current
     val word = remember(title) {
         getCategoryWords(context, title)
-    }
+    }.sortedWith { pair, pair1 -> pair.first.compareTo(pair1.first)  }
     Column(
         modifier = Modifier
             .fillMaxSize()
