@@ -160,6 +160,10 @@ fun WordsScreen(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Verbs -가다, -오다, -나다, -보다")}
         ) { Text(text = "Verbs -가다, -오다, -나다, -보다", fontSize = 20.sp)}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("words/Phrases")}
+        ) { Text(text = "Phrases", fontSize = 20.sp)}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
