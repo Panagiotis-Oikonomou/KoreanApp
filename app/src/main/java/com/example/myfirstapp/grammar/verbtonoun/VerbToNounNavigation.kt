@@ -7,7 +7,7 @@ import androidx.navigation.compose.composable
 fun NavGraphBuilder.verbtonounGraph(
     navController: NavHostController
 ) {
-    composable("allverbtonoun") {
+    composable("verbtonoun") {
         AllVerbToNoun(navController)
     }
 

@@ -17,6 +17,8 @@ import com.example.myfirstapp.grammar.questioncounter.questioncounterGraph
 import com.example.myfirstapp.grammar.solo.About
 import com.example.myfirstapp.grammar.solo.Anything
 import com.example.myfirstapp.grammar.solo.AsYou
+import com.example.myfirstapp.grammar.solo.CanDo
+import com.example.myfirstapp.grammar.solo.ClarifyingSth
 import com.example.myfirstapp.grammar.solo.Deunji
 import com.example.myfirstapp.grammar.solo.Feelings
 import com.example.myfirstapp.grammar.solo.HeSheThey
@@ -30,6 +32,7 @@ import com.example.myfirstapp.grammar.solo.PastExperience
 import com.example.myfirstapp.grammar.solo.Permission
 import com.example.myfirstapp.grammar.solo.Question
 import com.example.myfirstapp.grammar.solo.Regret
+import com.example.myfirstapp.grammar.solo.SeoVsJi
 import com.example.myfirstapp.grammar.solo.TheMost
 import com.example.myfirstapp.grammar.solo.TimeDate
 import com.example.myfirstapp.grammar.verbconstruction.verbconstructionGraph
@@ -131,5 +134,17 @@ fun NavGraphBuilder.grammarGraph(
     }
     composable("asyou") {
         AsYou()
+    }
+
+    composable("seovsji") {
+        SeoVsJi()
+    }
+
+    composable("cando") {
+        CanDo()
+    }
+
+    composable("clarifyingsth") {
+        ClarifyingSth()
     }
 }
