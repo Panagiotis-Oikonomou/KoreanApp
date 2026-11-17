@@ -7,11 +7,14 @@ import com.example.myfirstapp.layouts.LearningPage
 fun IndirectQuestion() {
     LearningPage(
         title = "Expressing your Opinion",
-        description = "This grammar point is used to express the idea of \"whether\" or \"if\", and it typically appears in contexts where you're talking about something uncertain or questioning whether something happens or is the case. In the end you add some \"special verbs\" to complete the expression like (알다, 모르다, 알고 싶다, 궁금하다, 물어보다 etc).",
+        description = "This grammar point is used to express the idea of \"whether\" or \"if\", and it typically appears in contexts where you're talking about something uncertain or questioning whether something happens or is the case."
+                    + " In the end you add some \"special verbs\" to complete the expression like (알다, 모르다, 알고 싶다, 궁금하다, 물어보다 etc)."
+                    + "For -ㄹ ending Verbs 살다 + 는 -> 사는",
         structure = listOf(
-            "(1)Present tense: Verb stem-는지 + [sv]\n(2)Present tense: Adjective stem-ㄴ/은지 + [sv]\n(3)Present tense: Noun stem + 인지 + [sv]",
-            "(4)Past tense: Verb/Adjective-았/었는지 + [sv]\n(5)Past tense: Noun Past-이었/였는지 + [sv]",
-            "(6)Future tense: Verb stem-ㄹ/을지 + [sv]"
+            "(1)Present tense: Verb stem-는지 + [sv]", "(2)Present tense: Adjective stem-ㄴ/은지 + [sv]", "(3)Present tense: Noun stem + 인지 + [sv]\n",
+            "(4)Past tense: Verb/Adjective-았/었는지 + [sv]", "(5)Past tense: Noun Past-이었/였는지 + [sv]\n",
+            "(6)Future tense: Verb stem-ㄹ/을지 + [sv]\n",
+            "(7)Irregular -있다, -없다: -있다/없다-는지 + [sv]"
         ),
         examples = listOf(
             "(1)지수가 한국어를 하는지 알아요?" to "Do you know if Jisoo speaks Korean?",
@@ -25,6 +28,7 @@ fun IndirectQuestion() {
             "(6)아빠가 뭐를 가져올지 잘 모르겠어요." to "I am not sure what dad will bring",
             "(6)승자가 누구일지 잘 모르겠어요." to "I am not sure who the winner will be.",
             "(6)내일 비가 올지 잘 모르겠어요." to "I am not sure if it will rain tomorrow.",
+            "교실에 아무도 없는지 획인했어요." to "I checked whether there is no one in the classroom."
         )
     )
 }
