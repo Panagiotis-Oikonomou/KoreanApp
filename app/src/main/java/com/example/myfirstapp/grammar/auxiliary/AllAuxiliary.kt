@@ -55,6 +55,10 @@ fun AllAuxiliary(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("become")}
         ) { Text("-지다 Auxiliary Verb")}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("inadvance")}
+        ) { Text("-놓다 — Doing Something in Advance and Leaving It That Way")}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }

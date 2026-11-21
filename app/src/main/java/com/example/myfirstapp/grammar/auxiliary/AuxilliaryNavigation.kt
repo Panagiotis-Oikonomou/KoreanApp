@@ -23,4 +23,8 @@ fun NavGraphBuilder.auxilliaryGraph(
     composable("become") {
         Become()
     }
+
+    composable("inadvance") {
+        InAdvance()
+    }
 }
