@@ -67,10 +67,6 @@ fun NavGraphBuilder.verbconstructionGraph(
         ItSuits()
     }
 
-    composable("looks") {
-        Looks()
-    }
-
     composable("assumptionskill") {
         AssumptionSkill()
     }
@@ -109,5 +105,17 @@ fun NavGraphBuilder.verbconstructionGraph(
 
     composable("reccomendation") {
         Recommendation()
+    }
+
+    composable("goingtodo") {
+        GoingToDo()
+    }
+
+    composable("itstruethat") {
+        ItsTrueThat()
+    }
+
+    composable("makesure") {
+        MakeSure()
     }
 }

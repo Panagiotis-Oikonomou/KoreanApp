@@ -45,27 +45,27 @@ fun AllVerbConstruction(navController: NavController) {
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("continuation")}
-        ) { Text("Verb-아/어 가다 — Continuation/Progression")}
+        ) { Text("-아/어 가다 — Continuation/Progression")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("comingtopresent")}
-        ) { Text("Verb-아/어 오다 — Action continuing from the past")}
+        ) { Text("-아/어 오다 — Action continuing from the past")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("completion")}
-        ) { Text("Verb-아/어 버리다 — Completion")}
+        ) { Text("-아/어 버리다 — Completion")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("somethingnew")}
-        ) { Text("Noun-이/가 생기다 — Getting/Having Something New")}
+        ) { Text("-이/가 생기다 — Getting/Having Something New")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("comingtodosth")}
-        ) { Text("Verb-게 되다 — Coming to Do Something")}
+        ) { Text("-게 되다 — Coming to Do Something")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("atthesametime")}
-        ) { Text("V/A-기도 하다 — Sometimes / Also / Do sometimes")}
+        ) { Text("-기도 하다 — Sometimes / Also / Do sometimes")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("itsnotthat")}
@@ -77,7 +77,7 @@ fun AllVerbConstruction(navController: NavController) {
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("hassle")}
-        ) { Text("V-기 귀찮다 — It’s a hassle to…")}
+        ) { Text("-기 귀찮다 — It’s a hassle to…")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("goingaround")}
@@ -96,44 +96,40 @@ fun AllVerbConstruction(navController: NavController) {
         ) { Text("-느라 수고하셨다/고생하셨다  — Acknowledge sm efforts")}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("looks")}
-        ) { Text("Adj-게 생겼다 — looks / seems…")}
-
-        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("assumptionskill")}
         ) { Text("알았다, 몰랐다 — Assumption, Skill or Ability")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("assumption")}
-        ) { Text("모양이다, 나/가 보다 — Assumption")}
+        ) { Text("-모양이다, 나/가 보다 — Assumption")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("wish")}
-        ) { Text("(으)면 좋겠습니다 — Expressing ones Wish")}
+        ) { Text("-(으)면 좋겠습니다 — Expressing ones Wish")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("tendency")}
-        ) { Text("는/은/ㄴ 편이다 — Tendency")}
+        ) { Text("-는/은/ㄴ 편이다 — Tendency")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("dependency")}
-        ) { Text("기에 달려 있다, 기 나름이다 — Dependency")}
+        ) { Text("-기에 달려 있다, 기 나름이다 — Dependency")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("worthit")}
-        ) { Text("ㄹ/을 만하다 — Worth doing it")}
+        ) { Text("-ㄹ/을 만하다 — Worth doing it")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("limitation")}
-        ) { Text("ㄹ/을 뿐이다 — Limitation, Exclusiveness")}
+        ) { Text("-ㄹ/을 뿐이다 — Limitation, Exclusiveness")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("concern")}
-        ) { Text("ㄹ/을까봐 걱정되다 — Expressing concern")}
+        ) { Text("-ㄹ/을까봐 걱정되다 — Expressing concern")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("exaggeration")}
-        ) { Text("아/어 죽겠다/죽겠네 — Exaggeration")}
+        ) { Text("-아/어 죽겠다/죽겠네 — Exaggeration")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("reccomendation")}
@@ -142,6 +138,18 @@ fun AllVerbConstruction(navController: NavController) {
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("itsuits")}
         ) { Text("-에 맞다 — To Fit, Suit, or be Appropriate for Something")}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("goingtodo")}
+        ) { Text("-(으)러 가다 — Going Somewhere to Do Something")}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("itstruethat")}
+        ) { Text("-기는 하다 — To Do Something, But... / It Is True That...")}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("makesure")}
+        ) { Text("-도록 하세요 — Please Make Sure to... / Try to...")}
 
         Spacer(modifier = Modifier.height(16.dp))
     }
