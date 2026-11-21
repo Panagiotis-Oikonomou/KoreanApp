@@ -1,4 +1,4 @@
-package com.example.myfirstapp.grammar.makesentence
+package com.example.myfirstapp.grammar.compare
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column

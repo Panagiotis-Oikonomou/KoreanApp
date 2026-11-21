@@ -134,6 +134,10 @@ fun GrammarScreen(navController: NavController) {
         ) { Text("Causative Verbs")}
 
         Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("comparegrammars")}
+        ) { Text("Compare Grammars")}
+
+        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("pastexperience")}
         ) { Text("ㄴ/은 적이 있다/없다 — Past Experience")}
 
@@ -142,20 +146,8 @@ fun GrammarScreen(navController: NavController) {
         ) { Text("Auxiliary Verbs")}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("kessdavsboda")}
-        ) { Text("V/A-겠다 vs V-나 보다, A-ㄴ/은가 보다")}
-
-        Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("about")}
-        ) { Text("About: -에 대한 vs -에 대해서")}
-
-        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("themost")}
         ) { Text("가장/제일 — The most")}
-
-        Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("rathervs")}
-        ) { Text("오히려 vs 차라리")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("regret")}
@@ -168,10 +160,6 @@ fun GrammarScreen(navController: NavController) {
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("cando")}
         ) { Text("ㄹ/을 수 있다/없다 — Ability, Possibility, Permission")}
-
-        Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("seovsji")}
-        ) { Text("겠어 vs 겠지")}
 
         Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("clarifyingsth")}

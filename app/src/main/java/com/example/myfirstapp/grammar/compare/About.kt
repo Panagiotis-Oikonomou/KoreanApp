@@ -1,4 +1,4 @@
-package com.example.myfirstapp.grammar.solo
+package com.example.myfirstapp.grammar.compare
 
 import androidx.compose.runtime.Composable
 import com.example.myfirstapp.layouts.LearningPage
