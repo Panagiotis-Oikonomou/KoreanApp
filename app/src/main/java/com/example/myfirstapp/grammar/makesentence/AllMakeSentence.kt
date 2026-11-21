@@ -48,10 +48,6 @@ fun AllMakeSentence(navController: NavController) {
         ) { Text("-ㄹ/을 때 — Adverbial Clause")}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("MyeonVsTtae")}
-        ) { Text("-(으)면 vs -ㄹ/을 때")}
-
-        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("shouldhave")}
         ) { Text("-아/어 야겠다/야되겠다, -아/어 + 야 되다/하다 — I Should Verb and I Have to Verb")}
 
@@ -124,16 +120,12 @@ fun AllMakeSentence(navController: NavController) {
         ) { Text("ㄴ/은 채 — An unchanged condition")}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("dagavsaeodaga")}
-        ) { Text("다가 vs 았/었다가")}
-
-        Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("deonivsaeodeoni")}
-        ) { Text("더니 vs 았/었더니")}
-
-        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("accordingto")}
         ) { Text("-에 따라 — Depending on / According to / In accordance with")}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("assoonas")}
+        ) { Text("-자마자 — As Soon As / Immediately After")}
 
         Spacer(modifier = Modifier.height(16.dp))
     }

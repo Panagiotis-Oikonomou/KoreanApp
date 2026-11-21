@@ -15,10 +15,6 @@ fun NavGraphBuilder.makesentenceGraph(
         AdverbialClause()
     }
 
-    composable("MyeonVsTtae") {
-        MyeonVsTtae()
-    }
-
     composable("shouldhave") {
         ShouldHave()
     }
@@ -75,14 +71,6 @@ fun NavGraphBuilder.makesentenceGraph(
         WhileDoing()
     }
 
-    composable("dagavsaeodaga") {
-        DagaVsaeoDaga()
-    }
-
-    composable("deonivsaeodeoni") {
-        DeoniVsaeoDeoni()
-    }
-
     composable("accordingto") {
         AccordingTo()
     }
@@ -101,5 +89,9 @@ fun NavGraphBuilder.makesentenceGraph(
 
     composable("unchangedcond") {
         UnchangedCond()
+    }
+
+    composable("assoonas") {
+        AsSoonAs()
     }
 }
