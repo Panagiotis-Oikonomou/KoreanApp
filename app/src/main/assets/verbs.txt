@@ -1,0 +1,234 @@
+[Emotions & Mental Reactions]
+To become exhausted: 지치다
+To become discouraged: 낙담하다
+To sulk, get offended: 삐지다
+To expect, look forward to something: 기대하다
+To become nervous: 긴장하다
+To become angry: 화나다
+[End]
+
+
+[Physical Actions & Changes]
+To cool down: 식다
+To become wet: 젖다
+To cook, ripe: 익다
+To spread, be transmitted, infected: 옮다
+To become blocked: 막히다
+To rise, float: 뜨다
+To attach, stick: 붙다
+To collapse: 무너지다
+To freeze: 얼다
+To increase: 늘다
+To decrease: 줄다
+To disappear: 없어지다, 사라지다
+To burn: 타다
+To melt: 녹다
+To gain weight: 살이 찌다
+To remain: 남다
+To tremble: 떨다
+To imprison sm: 가두다
+To wet sth: 적시다
+To shake: 흔들다
+[End]
+
+
+[Thinking, Understanding & Memory]
+To misunderstand: 오해하다
+To understand: 이해하다, 알아들다
+To recall: 기억나다
+To forget sth for a moment: 깜박하다
+To forget: 까먹다, 잊어버리다
+To predict: 예측하다
+To imagine: 상상하다
+To compare: 비교하다
+To check: 확인하다
+To make a mistake: 실수하다
+To lose(object): 잃다
+To make a choice: 선택하다
+To choose: 고르다
+To comfort: 위로하다
+To hesitate: 망설이다
+[End]
+
+
+[Communication & Social Interaction]
+Communication goes well: 말이 통하다
+To talk when you are not supposed to: 떠들다
+To spit out words: 내뱉다
+To lie: 거짓말하다
+To joke: 농담하다
+To command: 명령하다
+To recommend: 추천하다
+To introduce: 소개하다
+To confess: 고백하다
+To complain: 불평하다
+To respect: 존중하다
+To pronounce: 발음하다
+To advertise: 광고하다
+To bully, torment: 괴롭히다
+To deceive, fool: 속이다
+To sue sm: 고소하다
+To forgive: 용서하다
+[End]
+
+
+[Movement & Direction]
+To take and go: 가져가다
+To bring: 가져오다
+To come up: 올라오다
+To go up: 올라가다
+To come down: 내려오다
+To go down: 내려가다
+To follow me: 따라오다
+To follow other person: 따라가다
+To come back: 돌아오다
+To go back: 돌아가다
+To look back: 돌아보다
+To enter: 들어가다
+To pass: 지나다
+To cross: 건너다
+To go over: 넘다
+To go and come back: 다녀오다
+To visit and leave, stop by: 다녀가다
+To bring a person, animal: 데려오다
+To go out: 외출하다
+To transfer: 환승하다
+To hurry: 서두르다
+To float: 뜨다
+[End]
+
+
+[Daily Life & Personal Habits]
+How you spend your time: 지내다
+To stay overnight: 묵다
+To have: 갖다
+To snore: 코를 골다
+To breath: 숨을 쉬다
+To smoke: 피우다
+To pray: 기도하다
+To perform exorcism: 굿을 하다
+[End]
+
+
+[Personal Care & Hygiene]
+To wash your face: 세수하다
+To shave: 면도하다
+to brush teeth: 양치질하다
+To wash: 씻다
+To vomit: 토하다
+To smell: 냄새가 나다
+[End]
+
+
+[Cooking, Food Preparation & Eating]
+To chew: 씹다
+To lick: 핥다
+To steam: 찌다
+To stir, mix around: 휘젓다
+To boil: 끓이다
+To fry: 볶다
+To mix: 섞다
+To chop: 썰다
+To stir: 젓다
+To soak: 담그다
+To spit out things: 뱉다
+To pour, swell: 붓다
+[End]
+
+
+[Cleaning & Household Activities]
+To sweep: 쓸다
+To wipe: 닦다
+To fold: 개다
+To turn on: 켜다
+To turn off: 끄다
+To close: 닫다
+To cover: 덮다
+To lock: 잠그다
+To loosen: 풀다
+To air out, ventilate: 환기하다
+[End]
+
+
+[Handling Objects & Physical Actions]
+To throw: 던지다
+To click, press: 누르다
+To take a photograph, stamp or mark someone: 찍다
+To tighten: 조이다
+To insert: 끼우다
+To touch: 손대다
+To push: 밀다
+To pull: 당기다
+To scratch: 긁다
+To pinch: 꼬집다
+To move: 움직이다
+To tie: 매다
+To twist: 꼬다
+To dig: 파다
+To hit: 치다
+To catch, hook: 낚다
+To attach: 붙이다
+To transfer, transmit, infect sth: 옮기다
+To raise a child/animal: 기르다
+To connect: 잇다
+To hide: 숨다
+To sting: 쏘다
+To shave, reduce, lower: 깎다
+To wrap: 싸다
+To bow, bend: 숙이다
+To rip, tear(something): 찢다
+To break: 깨다
+To drill, pierce: 뚫다
+[End]
+
+
+[Work, Education & Career]
+To teach: 가르치다
+To major: 전공하다
+To educate: 교육하다
+To review: 복습하다
+To retire: 퇴직하다
+To quit: 그만두다
+To cancel a class: 휴강하다
+To organize: 정리하다
+To have an interview: 면접을 보다
+To take a test: 시험을 보다
+To land: 착륙하다
+To publish: 출판하다 , 발행하다
+[End]
+
+
+[Shopping, Reservations & Services]
+To book tickets in advance: 예매하다
+To cancel something: 취소하다
+To order something: 주문하다
+To deliver: 배달하다
+To exchange: 교환하다
+To refund: 환불하다
+To make a reservation: 예약하다
+To charge: 충전하다
+[End]
+
+
+[Creating, Repairing & Organizing]
+To name, build, write: 짓다
+To fix: 고치다
+To change: 바꾸다
+To collect: 모으다
+To divide: 나누다
+To surround: 둘러싸다
+To measure: 재다
+To squeeze, set [plans]: 짜다
+To sew: 꿰매다
+To remove, get rid off: 없애다
+[End]
+
+
+[Life Events & Competition]
+To cancel: 취소하다
+To be born: 태어나다
+To win: 이기다
+To lose(competition): 지다
+To give birth: 출산하다
+To face: 마주하다
+[End]
