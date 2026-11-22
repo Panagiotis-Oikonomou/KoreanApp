@@ -1,0 +1,99 @@
+[Physical Characteristics]
+To be short: 짧다
+To be deep: 깊다
+To be thick: 겁다
+To be thick(thick rope, lines, etc.): 굵다
+To be thick(objects):두껍다
+To be shallow: 얕다
+To be thin: 얇다
+To be light(weight): 가볍다
+To be skinny, slim: 날씬하다
+To be weak: 약하다
+To be physically strong: 힘이 세다
+To be noisy: 시끄럽다
+[End]
+
+
+[Temperature & Weather]
+To be hot(weather): 덥다
+To be cold(weather): 춥다
+To be hot(touch): 뜨겁다
+To be cold(touch): 차갑다
+[End]
+
+
+[Taste, Smell & Texture]
+To be sour: 시다
+To be bitter: 쓰다
+To be salty: 짜다
+To be soft: 부드럽다
+To be fragrant, smell good: 향기롭다
+[End]
+
+
+[Appearance & Condition]
+To be dirty: 더럽다
+To be clean: 깨끗하다
+To be bright, innocent: 해맑다
+To be pitch-dark: 깜깜하다
+To be clear (water, sky, etc.): 맑다
+To be shabby, humble, insignificant: 초라하다
+To be faint, vague: 희미하다
+To be picky: 편식하다
+[End]
+
+
+[Emotions & Moods]
+To be annoyed: 짜증나다
+To be bored: 심심하다
+To be clad, happy: 기쁘다
+To be unsatisfied, dissatisfied: 불만스럽다
+To be joyful, enjoyable: 즐겁다
+To be lonely: 외롭다
+To be upset: 속상하다
+To feel sorrowful, aggrieved: 서럽다
+To be sleepy: 졸리다
+To be uncomfortable: 불편하다
+[End]
+
+
+[Mental States & Reactions]
+To be confident: 자신감이 있다
+To be confused: 혼란스럽다
+To be embarrassed: 창피하다
+To be anxious, restless: 초조하다
+To feel awkward(colloquial): 뻘쭘하다
+To feel embarrassed, awkward: 민망하다
+[End]
+
+
+[Personality & Character]
+To be lazy: 게으르다
+To be energetic: 활기차다
+To be unkind, unfriendly: 불친절하다
+To be calm, composed: 침착하다
+To be wise, sensible: 현명하다
+To be brave, spirited: 씩씩하다
+To be lively, outgoing: 활발하다
+To be generous, open-hearted: 마음이 넓다
+To be broad-minded: 속이 넓다
+To be petty, small-minded: 속이 좁다
+To be impatient: 조급하다
+[End]
+
+
+[Social Feelings & Relationships]
+To feel hurt or disappointed by someone's actions: 서운하다
+To feel that something is regrettable or lacking: 아쉽다
+To feel disappointed hurt: 섭섭하다
+[End]
+
+
+[Quantity, Distance & Degree]
+To be few, little: 적다
+To be close: 가깝다
+To lack, not enough, insufficient: 부족하다
+To be severe, harsh, extreme, excessive: 심하다
+To be mandatory: 의무적이다
+To be urgent: 급하다
+[End]

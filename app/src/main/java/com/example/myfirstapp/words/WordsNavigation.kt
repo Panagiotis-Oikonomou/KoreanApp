@@ -11,11 +11,27 @@ fun NavGraphBuilder.wordsGraph(
     composable("words") {
         WordsScreen(navController)
     }
-    composable("words/{categoryName}") { backStackEntry ->
+
+    composable("adjectives") {
+        AdjectivesScreen(navController)
+    }
+
+    composable("verbs") {
+        VerbsScreen(navController)
+    }
+
+    composable("{upperLevel}/{categoryName}") { backStackEntry ->
 
         val categoryName = backStackEntry.arguments
             ?.getString("categoryName") ?: ""
 
-        WordsLayout(categoryName)
+        val whatFile = backStackEntry.arguments
+            ?.getString("upperLevel") ?: ""
+        var file = ""
+        if(whatFile == "words") file = "vocabulary.txt"
+        else if(whatFile == "adjectives") file = "adjectives.txt"
+        else if(whatFile == "verbs") file = "verbs.txt"
+
+        WordsLayout(categoryName, file)
     }
 }

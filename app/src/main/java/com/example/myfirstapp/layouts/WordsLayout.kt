@@ -24,11 +24,12 @@ import com.example.myfirstapp.ui.theme.MyBackground
 
 @Composable
 fun WordsLayout(
-    title: String
+    title: String,
+    file: String
 ) {
     val context = LocalContext.current
     val word = remember(title) {
-        getCategoryWords(context, title)
+        getCategoryWords(context, title, file)
     }.sortedWith { pair, pair1 -> pair.first.compareTo(pair1.first)  }
     Column(
         modifier = Modifier
@@ -54,7 +55,7 @@ fun WordsLayout(
             word.forEach { (original, translation) ->
                 Text(text = original + ":  " + translation, fontSize = 20.sp)
 
-                Spacer(modifier = Modifier.height(10.dp))
+                Spacer(modifier = Modifier.height(16.dp))
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
@@ -63,12 +64,13 @@ fun WordsLayout(
 
 fun getCategoryWords(
     context: Context,
-    category: String
+    category: String,
+    file: String
 ): List<Pair<String, String>> {
     val result = mutableListOf<Pair<String, String>>()
     var readingCategory = false
 
-    context.assets.open("vocabulary.txt").bufferedReader().use { reader ->
+    context.assets.open(file).bufferedReader().use { reader ->
 
         reader.forEachLine { line ->
             when {
