@@ -118,4 +118,12 @@ fun NavGraphBuilder.verbconstructionGraph(
     composable("makesure") {
         MakeSure()
     }
+
+    composable("timeneeded") {
+        TimeNeeded()
+    }
+
+    composable("damyeonseo") {
+        DaMyeonseo()
+    }
 }

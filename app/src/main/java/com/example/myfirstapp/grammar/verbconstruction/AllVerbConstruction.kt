@@ -151,6 +151,14 @@ fun AllVerbConstruction(navController: NavController) {
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("makesure")}
         ) { Text("-도록 하세요 — Please Make Sure to... / Try to...")}
 
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("timeneeded")}
+        ) { Text("-는 데에 [duration]이/가 걸리다 — Time Needed to Do Something")}
+
+        Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("damyeonseo")}
+        ) { Text("-다/라면서 — Quoting Someone's Words or Instructions")}
+
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
