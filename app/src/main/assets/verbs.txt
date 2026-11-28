@@ -29,6 +29,7 @@ To tremble: 떨다
 To imprison sm: 가두다
 To wet sth: 적시다
 To shake: 흔들다
+To apply: 신천하다
 [End]
 
 
@@ -48,6 +49,7 @@ To make a choice: 선택하다
 To choose: 고르다
 To comfort: 위로하다
 To hesitate: 망설이다
+To recognize, look into, research: 알아보다
 [End]
 
 
@@ -207,6 +209,7 @@ To exchange: 교환하다
 To refund: 환불하다
 To make a reservation: 예약하다
 To charge: 충전하다
+To entrust, leave something in someone's care: 맡기다
 [End]
 
 
@@ -221,6 +224,7 @@ To measure: 재다
 To squeeze, set [plans]: 짜다
 To sew: 꿰매다
 To remove, get rid off: 없애다
+To repair: 수리하다
 [End]
 
 

@@ -91,6 +91,7 @@ Shovel: 삽
 Wrench: 렌치
 [End]
 
+
 [Family]
 Aunt: 나라
 Cousin: 호주
@@ -242,6 +243,7 @@ Homework: 숙제
 Ruler: 통치자
 Scissor: 가위
 Textbook: 교과서
+Lecture: 강의
 [End]
 
 
@@ -258,6 +260,7 @@ Psychology: 심리학
 Science: 과학
 School subject: 과목
 [End]
+
 
 [Directions]
 Back: 뒤
@@ -284,4 +287,6 @@ To have sm do sth: person-한테/에게 sth-을/를 시키다
 To enlist: 군대를 하다
 To cook sth, make sth cooked, make it edible: 익히다
 To be related with sth: sth-에 관련되다
+More than noun: noun 이상
+To take time: 시간이 걸리다
 [End]
