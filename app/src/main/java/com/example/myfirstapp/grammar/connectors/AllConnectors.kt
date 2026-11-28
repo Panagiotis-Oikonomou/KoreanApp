@@ -68,10 +68,6 @@ fun AllConnectors(navController: NavController) {
         ) { Text("그러면 conjunction")}
 
         Button(
-            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("ttaendevstaenikka")}
-        ) { Text("ㄹ/을테다 vs ㄹ/을 거다")}
-
-        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("neurago")}
         ) { Text("느라(고) conjunction")}
 

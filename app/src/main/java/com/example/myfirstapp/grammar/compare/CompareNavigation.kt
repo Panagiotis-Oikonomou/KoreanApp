@@ -39,6 +39,10 @@ fun NavGraphBuilder.compareGraph(
         DeoniVsaeoDeoni()
     }
 
+    composable("ttaendevstaenikka") {
+        TtaendeVsTaenikka()
+    }
+
     composable("looksvs") {
         LooksVs()
     }

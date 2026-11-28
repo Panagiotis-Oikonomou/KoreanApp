@@ -60,6 +60,10 @@ fun AllCompare(navController: NavController) {
         ) { Text("오히려 vs 차라리")}
 
         Button(
+            modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("ttaendevstaenikka")}
+        ) { Text("ㄹ/을테다 vs ㄹ/을 거다")}
+
+        Button(
             modifier = Modifier.fillMaxWidth(), onClick = {navController.navigate("dagavsaeodaga")}
         ) { Text("다가 vs 았/었다가")}
 

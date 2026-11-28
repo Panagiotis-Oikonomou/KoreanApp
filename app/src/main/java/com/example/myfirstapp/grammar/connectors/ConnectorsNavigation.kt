@@ -31,10 +31,6 @@ fun NavGraphBuilder.connectorsGraph(
         Then()
     }
 
-    composable("ttaendevstaenikka") {
-        TtaendeVsTaenikka()
-    }
-
     composable("neurago") {
         Neurago()
     }

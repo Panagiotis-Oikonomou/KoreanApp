@@ -1,11 +1,9 @@
-package com.example.myfirstapp.grammar.connectors
+package com.example.myfirstapp.grammar.compare
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
@@ -18,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.myfirstapp.layouts.ConversationLayout
 import com.example.myfirstapp.layouts.ExamplesLayout
-import com.example.myfirstapp.layouts.StructureLayout
+import com.example.myfirstapp.layouts.ShowingNumbers
 import com.example.myfirstapp.ui.theme.MyBackground
 
 @Composable
@@ -38,33 +36,27 @@ fun TtaendeVsTaenikka() {
         Text(text = "Description", fontSize = 20.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(8.dp))
 
-        Text(
-            text = "The grammar -ㄹ/을테다 is less certain, softer for future events beyond your control or not 100% certain(e.g. another person's actions, external events etc), assumptions, expectations.",
-            fontSize = 16.sp
-        )
+        Text(text = "A. -ㄹ/을테다", fontSize = 16.sp)
+        ShowingNumbers(listOf(
+            "Indicates a strong expectation or assumption about a future event or current situation",
+            "Has a slightly weaker sense of certainty because it is used in speculation or expectation, not a firm plan"
+        ))
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(16.dp))
 
-        Text(
-            text = "The grammar -ㄹ/을 거다 is more certain, firm for future actions you are certain about(e.g. your own plans, sth you are certain will happen), assumptions, intention/action plan.",
-            fontSize = 16.sp
-        )
-
-        Spacer(modifier = Modifier.height(8.dp))
+        Text(text = "B. -ㄹ/을 거다", fontSize = 16.sp)
+        ShowingNumbers(listOf(
+            "Indicates a future plan or intention",
+            "Has a relatively stronger sense of certainty about the speaker's action or situation",
+            "Rarely used with adjectives(it's hard to be sure about the features in the future)\n"
+        ))
 
         Text(
             text = "It's most commonly used with conjunctions ㄴ/는데 -> ㄹ/을 텐데, (으)니까 -> ㄹ/을테니까.",
             fontSize = 16.sp
         )
 
-        Spacer(modifier = Modifier.height(20.dp))
-
-        Text(
-            text = "-ㄹ/을 텐데 is used to give your assumptions as context for what you're about to say.",
-            fontSize = 16.sp
-        )
-
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(10.dp))
 
         ConversationLayout(
             listOf("이번 여름에 한국으로 여행할까?" to "Shall we travel to Korea this summer?"),
@@ -93,7 +85,7 @@ fun TtaendeVsTaenikka() {
             fontSize = 16.sp
         )
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(10.dp))
 
         ExamplesLayout(
             listOf(
